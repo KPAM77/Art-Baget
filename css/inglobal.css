@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'inglobal';
+    src: url('../fonts/inglobal.eot');
+    src: url('../fonts/inglobal.eot') format('embedded-opentype'),
+         url('../fonts/inglobal.woff2') format('woff2'),
+         url('../fonts/inglobal.woff') format('woff'),
+         url('../fonts/inglobal.ttf') format('truetype'),
+         url('../fonts/inglobal.svg#inglobal') format('svg');
+}

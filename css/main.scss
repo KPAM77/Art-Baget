@@ -1,0 +1,32 @@
+@import "vars.scss";
+
+.block_size {
+  height: 400px;
+  width: auto;
+  background-color: peachpuff;
+  padding: 10px;
+  margin-top: 10px; 
+}
+
+.logo_rt {
+  position: relative;
+  top: 120px;
+  left: 5px;
+  opacity: 0.3;
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: $basic-color;
+}
+
+.carousel-indicators > li {
+  border: $border-width solid $basic-color;
+}
+
+.glyphicon {
+  color: $basic-color;
+}

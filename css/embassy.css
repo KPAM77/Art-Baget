@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'embassy';
+    src: url('../fonts/embassy.eot');
+    src: url('../fonts/embassy.eot') format('embedded-opentype'),
+         url('../fonts/embassy.woff2') format('woff2'),
+         url('../fonts/embassy.woff') format('woff'),
+         url('../fonts/embassy.ttf') format('truetype'),
+         url('../fonts/embassy.svg#embassy') format('svg');
+}

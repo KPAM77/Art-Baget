@@ -1,0 +1,71 @@
+@import "vars.scss";
+
+.header_block {
+  height: $header-heith;    
+  // position: fixed;
+  z-index: 30;
+}
+
+.header_menu_block {
+  height: $header-main; 
+  width: $header-main;
+}
+
+.menu_btn {
+  width: $menu-item-height;
+  height: $menu-item-height;  
+  cursor: pointer; 
+  margin: 40px auto;
+}
+
+.menu_btn_text {  
+  line-height: 60px; 
+  text-decoration: none; 
+}
+
+.header_logo_block {
+  width: 400px;
+  line-height: $header-main;
+  margin: 0;
+}
+
+.header_contacts_block {
+  width: auto;
+}
+
+.telefon {
+  background-color: white;
+}
+
+.mob_logo {  
+  width: 20px;
+  height: 20px;
+}
+
+.tel_decor {
+  padding: 9px;
+}
+
+.logo_img {
+  height: 100px;
+  margin: 20px;
+}
+
+.text_header {
+  line-height: 140px;
+  margin: 0;
+}
+
+.titel {
+  margin: 10px 5px;
+  width: 130px;
+}
+
+.addres_text {
+  margin-top: 10px;
+  width: 210px;
+}
+
+.address {
+  margin-bottom: 5px;
+}

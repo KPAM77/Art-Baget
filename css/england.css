@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'england';
+    src: url('../fonts/england.eot');
+    src: url('../fonts/england.eot') format('embedded-opentype'),
+         url('../fonts/england.woff2') format('woff2'),
+         url('../fonts/england.woff') format('woff'),
+         url('../fonts/england.ttf') format('truetype'),
+         url('../fonts/england.svg#england') format('svg');
+}

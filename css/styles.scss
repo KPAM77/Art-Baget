@@ -1,0 +1,174 @@
+// @import "reset.scss";
+@import "vars.scss";
+@import "header.scss";
+@import "menu.scss";
+@import "main.scss";
+@import "services.scss";
+@import "articles.scss";
+@import "footer.scss";
+
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialised;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bg {
+  background-color: $bg-color;
+}
+
+.bgf {
+  background-color: rosybrown;
+}
+
+.lines_decore {
+  border-top: $border-width solid $border-color;
+  border-bottom: $border-width solid $border-color;
+}
+
+.border {
+  border: $border-width solid $border-color;
+}
+
+.under {
+  text-decoration: underline;
+
+  &:hover {
+    color: $btn-hover-color;
+  }
+}
+
+.big-btn {
+  color: $btn-hover-color;
+  background-color: $basic-color;
+  margin: 10px;
+  padding: 10px 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+  -moz-transition: color 0.2s 0.02s ease;
+  -o-transition: color 0.2s 0.02s ease;
+  -webkit-transition: color 0.2s 0.02s ease;
+
+  &:hover {
+    color: $basic-color;
+    background-color: white;
+    border: $border-width solid $basic-color;
+  }
+}
+
+.mid-btn {
+  color: $btn-hover-color;
+  background-color: $basic-color;
+  margin: 5px;
+  padding: 10px 22px;
+  font-size: 15px;  
+  text-transform: uppercase;
+  -moz-transition: color 0.2s 0.02s ease;
+  -o-transition: color 0.2s 0.02s ease;
+  -webkit-transition: color 0.2s 0.02s ease;
+
+  &:hover {
+    color: $basic-color;
+    background-color: white;
+    border: $border-width solid $basic-color;
+  }
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section_header {
+    margin-bottom: 20px;
+    padding: 5px 20px;
+}
+
+
+h1 {
+  font-family: $font-logo;
+  color: $basic-color;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-basic;
+  color: $basic-color;
+  font-weight: bold;
+}
+
+p {
+  font-family: $font-basic;
+  font-size: $main-font-size;
+  color: $basic-color;
+  text-decoration: none;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: $border-color;
+  text-decoration: none;
+}
+
+footer {
+  margin: 20px 0;
+}
+
+@font-face {
+  font-family: 'inglobal';
+  src: url('../fonts/inglobal.eot');
+  src: url('../fonts/inglobal.eot') format('embedded-opentype'),
+       url('../fonts/inglobal.woff2') format('woff2'),
+       url('../fonts/inglobal.woff') format('woff'),
+       url('../fonts/inglobal.ttf') format('truetype'),
+       url('../fonts/inglobal.svg#inglobal') format('svg');
+}
+
+@font-face {
+  font-family: 'england';
+  src: url('../fonts/england.eot');
+  src: url('../fonts/england.eot') format('embedded-opentype'),
+       url('../fonts/england.woff2') format('woff2'),
+       url('../fonts/england.woff') format('woff'),
+       url('../fonts/england.ttf') format('truetype'),
+       url('../fonts/england.svg#england') format('svg');
+}
+
+@font-face {
+  font-family: 'embassy';
+  src: url('../fonts/embassy.eot');
+  src: url('../fonts/embassy.eot') format('embedded-opentype'),
+       url('../fonts/embassy.woff2') format('woff2'),
+       url('../fonts/embassy.woff') format('woff'),
+       url('../fonts/embassy.ttf') format('truetype'),
+       url('../fonts/embassy.svg#embassy') format('svg');
+}
+
+.basic {
+  font-family: $font-basic;
+}
+
+.bold {
+  font-family: $font-basic;  
+  font-weight: bold;
+}
+
+.block {
+  display: block;
+}
+
+.p_mrgn {
+  margin: 5px;
+  font-size: 20px;
+}

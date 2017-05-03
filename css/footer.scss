@@ -1,0 +1,11 @@
+@import "vars.scss";
+
+.footer_block {
+    height: $footer_height;
+    padding: 10px;
+}
+
+.footer_col {
+  height: $footer_height;
+  padding-top: 45px;
+}
